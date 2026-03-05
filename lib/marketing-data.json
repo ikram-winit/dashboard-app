@@ -33,7 +33,8 @@
     "buSalesTotal": 1714009.485368,
     "marPlanTotal": 1788000,
     "aprPlanTotal": 1360000,
-    "mayPlanTotal": 1300000
+    "mayPlanTotal": 1300000,
+    "aiForecastTotal": 1852037.97
   },
   "data": [
     {
@@ -56,7 +57,8 @@
       "buSales": 13161.32,
       "marPlan": 13381.14,
       "aprPlan": 13158.210000000003,
-      "mayPlan": 10003.109337764714
+      "mayPlan": 10003.109337764714,
+      "aiForecast": 13860.03
     },
     {
       "row": 7,
@@ -78,7 +80,8 @@
       "buSales": 590,
       "marPlan": 530,
       "aprPlan": 600,
-      "mayPlan": 350
+      "mayPlan": 350,
+      "aiForecast": 510.92
     },
     {
       "row": 8,
@@ -100,7 +103,8 @@
       "buSales": 2323.68,
       "marPlan": 2300,
       "aprPlan": 2200,
-      "mayPlan": 1390.4777959397795
+      "mayPlan": 1390.4777959397795,
+      "aiForecast": 2198.14
     },
     {
       "row": 9,
@@ -122,7 +126,8 @@
       "buSales": 8616.6,
       "marPlan": 9000,
       "aprPlan": 7600,
-      "mayPlan": 7230.8788185768
+      "mayPlan": 7230.8788185768,
+      "aiForecast": 9797.17
     },
     {
       "row": 10,
@@ -144,7 +149,8 @@
       "buSales": 0,
       "marPlan": 800,
       "aprPlan": 500,
-      "mayPlan": 500
+      "mayPlan": 500,
+      "aiForecast": 0
     },
     {
       "row": 11,
@@ -166,7 +172,8 @@
       "buSales": 88,
       "marPlan": 80,
       "aprPlan": 60,
-      "mayPlan": 30
+      "mayPlan": 30,
+      "aiForecast": 82.26
     },
     {
       "row": 12,
@@ -188,7 +195,8 @@
       "buSales": 266,
       "marPlan": 275,
       "aprPlan": 215,
-      "mayPlan": 200
+      "mayPlan": 200,
+      "aiForecast": 265.69
     },
     {
       "row": 13,
@@ -210,7 +218,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 14,
@@ -232,7 +241,8 @@
       "buSales": 1218.16,
       "marPlan": 1100,
       "aprPlan": 1000,
-      "mayPlan": 800
+      "mayPlan": 800,
+      "aiForecast": 1027.3
     },
     {
       "row": 15,
@@ -254,7 +264,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 16,
@@ -276,7 +287,8 @@
       "buSales": 627,
       "marPlan": 1100,
       "aprPlan": 1100,
-      "mayPlan": 1000
+      "mayPlan": 1000,
+      "aiForecast": 414.75
     },
     {
       "row": 18,
@@ -298,7 +310,8 @@
       "buSales": 31590.942520000004,
       "marPlan": 33000,
       "aprPlan": 30000,
-      "mayPlan": 25000
+      "mayPlan": 25000,
+      "aiForecast": 31912.07
     },
     {
       "row": 19,
@@ -320,7 +333,8 @@
       "buSales": 158363.3,
       "marPlan": 170866.02,
       "aprPlan": 136772.15999999997,
-      "mayPlan": 121599.01999999999
+      "mayPlan": 121599.01999999999,
+      "aiForecast": 162346.95
     },
     {
       "row": 20,
@@ -342,7 +356,8 @@
       "buSales": 21641.440000000002,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 21,
@@ -364,7 +379,8 @@
       "buSales": 31496.38,
       "marPlan": 30000,
       "aprPlan": 26000,
-      "mayPlan": 27500
+      "mayPlan": 27500,
+      "aiForecast": 30025.71
     },
     {
       "row": 22,
@@ -386,7 +402,8 @@
       "buSales": 85,
       "marPlan": 60,
       "aprPlan": 80,
-      "mayPlan": 60
+      "mayPlan": 60,
+      "aiForecast": 55.45
     },
     {
       "row": 23,
@@ -408,7 +425,8 @@
       "buSales": 169.18,
       "marPlan": 130,
       "aprPlan": 140,
-      "mayPlan": 130
+      "mayPlan": 130,
+      "aiForecast": 114.22
     },
     {
       "row": 24,
@@ -430,7 +448,8 @@
       "buSales": 2658.4,
       "marPlan": 2000,
       "aprPlan": 3600,
-      "mayPlan": 3000
+      "mayPlan": 3000,
+      "aiForecast": 1843.17
     },
     {
       "row": 26,
@@ -452,7 +471,8 @@
       "buSales": 227570.4778,
       "marPlan": 220000,
       "aprPlan": 180000,
-      "mayPlan": 167000
+      "mayPlan": 167000,
+      "aiForecast": 220615.62
     },
     {
       "row": 27,
@@ -474,7 +494,8 @@
       "buSales": 1235.46,
       "marPlan": 1129.949,
       "aprPlan": 1342.2105999999999,
-      "mayPlan": 1252.6149999999998
+      "mayPlan": 1252.6149999999998,
+      "aiForecast": 1127.22
     },
     {
       "row": 28,
@@ -496,7 +517,8 @@
       "buSales": 167,
       "marPlan": 130,
       "aprPlan": 182,
-      "mayPlan": 150
+      "mayPlan": 150,
+      "aiForecast": 147.07
     },
     {
       "row": 29,
@@ -518,7 +540,8 @@
       "buSales": 604.06,
       "marPlan": 450,
       "aprPlan": 600,
-      "mayPlan": 550
+      "mayPlan": 550,
+      "aiForecast": 503.76
     },
     {
       "row": 30,
@@ -540,7 +563,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 31,
@@ -562,7 +586,8 @@
       "buSales": 183,
       "marPlan": 140,
       "aprPlan": 150,
-      "mayPlan": 140
+      "mayPlan": 140,
+      "aiForecast": 101.31
     },
     {
       "row": 32,
@@ -584,7 +609,8 @@
       "buSales": 2395.5559,
       "marPlan": 2000.0000000000002,
       "aprPlan": 2500,
-      "mayPlan": 2300
+      "mayPlan": 2300,
+      "aiForecast": 2205.95
     },
     {
       "row": 33,
@@ -606,7 +632,8 @@
       "buSales": 1506.8,
       "marPlan": 1094.4799999999996,
       "aprPlan": 1280.6000000000004,
-      "mayPlan": 1364.8999999999999
+      "mayPlan": 1364.8999999999999,
+      "aiForecast": 1650.72
     },
     {
       "row": 34,
@@ -628,7 +655,8 @@
       "buSales": 419,
       "marPlan": 450,
       "aprPlan": 340,
-      "mayPlan": 320
+      "mayPlan": 320,
+      "aiForecast": 438.5
     },
     {
       "row": 35,
@@ -650,7 +678,8 @@
       "buSales": 1714.9,
       "marPlan": 1600,
       "aprPlan": 1600,
-      "mayPlan": 1200
+      "mayPlan": 1200,
+      "aiForecast": 1370.07
     },
     {
       "row": 36,
@@ -672,7 +701,8 @@
       "buSales": 731.36,
       "marPlan": 560,
       "aprPlan": 600,
-      "mayPlan": 500
+      "mayPlan": 500,
+      "aiForecast": 407.8
     },
     {
       "row": 37,
@@ -694,7 +724,8 @@
       "buSales": 4814.63312,
       "marPlan": 4200,
       "aprPlan": 4300,
-      "mayPlan": 3700
+      "mayPlan": 3700,
+      "aiForecast": 4301.97
     },
     {
       "row": 38,
@@ -716,7 +747,8 @@
       "buSales": 723,
       "marPlan": 730,
       "aprPlan": 830,
-      "mayPlan": 600
+      "mayPlan": 600,
+      "aiForecast": 607.65
     },
     {
       "row": 39,
@@ -738,7 +770,8 @@
       "buSales": 4319.22,
       "marPlan": 4251.00875,
       "aprPlan": 4559.9281875,
-      "mayPlan": 4067.51
+      "mayPlan": 4067.51,
+      "aiForecast": 3835.45
     },
     {
       "row": 40,
@@ -760,7 +793,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 41,
@@ -782,7 +816,8 @@
       "buSales": 116,
       "marPlan": 60,
       "aprPlan": 50,
-      "mayPlan": 40
+      "mayPlan": 40,
+      "aiForecast": 130.89
     },
     {
       "row": 42,
@@ -804,7 +839,8 @@
       "buSales": 7623.1062999999995,
       "marPlan": 7500,
       "aprPlan": 8099.600099999999,
-      "mayPlan": 7100
+      "mayPlan": 7100,
+      "aiForecast": 7331.4
     },
     {
       "row": 43,
@@ -826,7 +862,8 @@
       "buSales": 463,
       "marPlan": 520,
       "aprPlan": 420,
-      "mayPlan": 300
+      "mayPlan": 300,
+      "aiForecast": 511.98
     },
     {
       "row": 44,
@@ -848,7 +885,8 @@
       "buSales": 3932.34,
       "marPlan": 4064.00625,
       "aprPlan": 4481.509375,
-      "mayPlan": 3739.175
+      "mayPlan": 3739.175,
+      "aiForecast": 3939.68
     },
     {
       "row": 45,
@@ -870,7 +908,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 46,
@@ -892,7 +931,8 @@
       "buSales": 339,
       "marPlan": 300,
       "aprPlan": 450,
-      "mayPlan": 400
+      "mayPlan": 400,
+      "aiForecast": 352.03
     },
     {
       "row": 47,
@@ -914,7 +954,8 @@
       "buSales": 6744.3727,
       "marPlan": 7000,
       "aprPlan": 7600,
-      "mayPlan": 6300
+      "mayPlan": 6300,
+      "aiForecast": 7052.38
     },
     {
       "row": 48,
@@ -936,7 +977,8 @@
       "buSales": 322,
       "marPlan": 250,
       "aprPlan": 360.1893197338332,
-      "mayPlan": 360.1893197338332
+      "mayPlan": 360.1893197338332,
+      "aiForecast": 323.59
     },
     {
       "row": 49,
@@ -958,7 +1000,8 @@
       "buSales": 1740,
       "marPlan": 1925,
       "aprPlan": 2676.8958741463916,
-      "mayPlan": 2364.3958741463916
+      "mayPlan": 2364.3958741463916,
+      "aiForecast": 2067.07
     },
     {
       "row": 52,
@@ -980,7 +1023,8 @@
       "buSales": 3067.36,
       "marPlan": 3300,
       "aprPlan": 4600,
-      "mayPlan": 4100
+      "mayPlan": 4100,
+      "aiForecast": 3758.58
     },
     {
       "row": 53,
@@ -1002,7 +1046,8 @@
       "buSales": 66831.36,
       "marPlan": 60937.370000000024,
       "aprPlan": 40814.822,
-      "mayPlan": 24384.520000000004
+      "mayPlan": 24384.520000000004,
+      "aiForecast": 62092.94
     },
     {
       "row": 54,
@@ -1024,7 +1069,8 @@
       "buSales": 90,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 55,
@@ -1046,7 +1092,8 @@
       "buSales": 2837.1,
       "marPlan": 3600,
       "aprPlan": 3260,
-      "mayPlan": 1400
+      "mayPlan": 1400,
+      "aiForecast": 3808.34
     },
     {
       "row": 56,
@@ -1068,7 +1115,8 @@
       "buSales": 20093.64,
       "marPlan": 18000,
       "aprPlan": 15200,
-      "mayPlan": 9450
+      "mayPlan": 9450,
+      "aiForecast": 18728.96
     },
     {
       "row": 57,
@@ -1090,7 +1138,8 @@
       "buSales": 38623.82,
       "marPlan": 44500,
       "aprPlan": 28838,
-      "mayPlan": 18500
+      "mayPlan": 18500,
+      "aiForecast": 45956.55
     },
     {
       "row": 58,
@@ -1112,7 +1161,8 @@
       "buSales": 0,
       "marPlan": 2400,
       "aprPlan": 2200,
-      "mayPlan": 2000
+      "mayPlan": 2000,
+      "aiForecast": 2225.6
     },
     {
       "row": 59,
@@ -1134,7 +1184,8 @@
       "buSales": 339,
       "marPlan": 350,
       "aprPlan": 150,
-      "mayPlan": 160
+      "mayPlan": 160,
+      "aiForecast": 334.76
     },
     {
       "row": 60,
@@ -1156,7 +1207,8 @@
       "buSales": 4698.06,
       "marPlan": 5000,
       "aprPlan": 3600,
-      "mayPlan": 2550
+      "mayPlan": 2550,
+      "aiForecast": 4831.51
     },
     {
       "row": 61,
@@ -1178,7 +1230,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 62,
@@ -1200,7 +1253,8 @@
       "buSales": 2386.24,
       "marPlan": 2500,
       "aprPlan": 2217,
-      "mayPlan": 1900
+      "mayPlan": 1900,
+      "aiForecast": 2331.92
     },
     {
       "row": 63,
@@ -1222,7 +1276,8 @@
       "buSales": 5364.52,
       "marPlan": 5400,
       "aprPlan": 4481,
-      "mayPlan": 3900
+      "mayPlan": 3900,
+      "aiForecast": 5169.13
     },
     {
       "row": 64,
@@ -1244,7 +1299,8 @@
       "buSales": 1191.44,
       "marPlan": 1000,
       "aprPlan": 850,
-      "mayPlan": 620
+      "mayPlan": 620,
+      "aiForecast": 936.16
     },
     {
       "row": 66,
@@ -1266,7 +1322,8 @@
       "buSales": 175396.06119999997,
       "marPlan": 180000,
       "aprPlan": 125000,
-      "mayPlan": 79500
+      "mayPlan": 79500,
+      "aiForecast": 174114.88
     },
     {
       "row": 67,
@@ -1288,7 +1345,8 @@
       "buSales": 2926.04,
       "marPlan": 4615.207107418945,
       "aprPlan": 2653.7440867658934,
-      "mayPlan": 1000
+      "mayPlan": 1000,
+      "aiForecast": 4715.19
     },
     {
       "row": 68,
@@ -1310,7 +1368,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 69,
@@ -1332,7 +1391,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 70,
@@ -1354,7 +1414,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 71,
@@ -1376,7 +1437,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 72,
@@ -1398,7 +1460,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 946.9318181818179
+      "mayPlan": 946.9318181818179,
+      "aiForecast": 0
     },
     {
       "row": 74,
@@ -1420,7 +1483,8 @@
       "buSales": 2535.998868,
       "marPlan": 4000,
       "aprPlan": 2300,
-      "mayPlan": 1699.9999999999998
+      "mayPlan": 1699.9999999999998,
+      "aiForecast": 3913.32
     },
     {
       "row": 75,
@@ -1442,7 +1506,8 @@
       "buSales": 1178,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 2500
+      "mayPlan": 2500,
+      "aiForecast": 0
     },
     {
       "row": 77,
@@ -1464,7 +1529,8 @@
       "buSales": 1036.64,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 2200
+      "mayPlan": 2200,
+      "aiForecast": 0
     },
     {
       "row": 78,
@@ -1486,7 +1552,8 @@
       "buSales": 577616,
       "marPlan": 581428,
       "aprPlan": 446740.39989999984,
-      "mayPlan": 438212
+      "mayPlan": 438212,
+      "aiForecast": 601863.49
     },
     {
       "row": 79,
@@ -1508,7 +1575,8 @@
       "buSales": 81746.48,
       "marPlan": 120000,
       "aprPlan": 75000,
-      "mayPlan": 80500
+      "mayPlan": 80500,
+      "aiForecast": 119190.14
     },
     {
       "row": 80,
@@ -1530,7 +1598,8 @@
       "buSales": 13,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 81,
@@ -1552,7 +1621,8 @@
       "buSales": 113501.94,
       "marPlan": 112000,
       "aprPlan": 85000,
-      "mayPlan": 90500
+      "mayPlan": 90500,
+      "aiForecast": 115525.97
     },
     {
       "row": 82,
@@ -1574,7 +1644,8 @@
       "buSales": 105925.16,
       "marPlan": 122000,
       "aprPlan": 90000,
-      "mayPlan": 86300
+      "mayPlan": 86300,
+      "aiForecast": 133733.09
     },
     {
       "row": 83,
@@ -1596,7 +1667,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 84,
@@ -1618,7 +1690,8 @@
       "buSales": 1428.68,
       "marPlan": 1500,
       "aprPlan": 1200,
-      "mayPlan": 960
+      "mayPlan": 960,
+      "aiForecast": 1535.53
     },
     {
       "row": 86,
@@ -1640,7 +1713,8 @@
       "buSales": 938077.4757400001,
       "marPlan": 996900,
       "aprPlan": 745300.3998999998,
-      "mayPlan": 740100
+      "mayPlan": 740100,
+      "aiForecast": 1065637.74
     },
     {
       "row": 87,
@@ -1662,7 +1736,8 @@
       "buSales": 129558.7,
       "marPlan": 129024,
       "aprPlan": 100431.99999999999,
-      "mayPlan": 97685.96148797909
+      "mayPlan": 97685.96148797909,
+      "aiForecast": 120529.75
     },
     {
       "row": 88,
@@ -1684,7 +1759,8 @@
       "buSales": 19,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 89,
@@ -1706,7 +1782,8 @@
       "buSales": 21321.82,
       "marPlan": 21000,
       "aprPlan": 15500,
-      "mayPlan": 15704.01130466663
+      "mayPlan": 15704.01130466663,
+      "aiForecast": 21769.87
     },
     {
       "row": 90,
@@ -1728,7 +1805,8 @@
       "buSales": 18370.8,
       "marPlan": 18000,
       "aprPlan": 14500,
-      "mayPlan": 11706.626608933097
+      "mayPlan": 11706.626608933097,
+      "aiForecast": 15138.31
     },
     {
       "row": 91,
@@ -1750,7 +1828,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 92,
@@ -1772,7 +1851,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 94,
@@ -1794,7 +1874,8 @@
       "buSales": 181484.28922,
       "marPlan": 180000,
       "aprPlan": 140000,
-      "mayPlan": 133000
+      "mayPlan": 133000,
+      "aiForecast": 171624.75
     },
     {
       "row": 95,
@@ -1816,7 +1897,8 @@
       "buSales": 0,
       "marPlan": 20336,
       "aprPlan": 20336,
-      "mayPlan": 20336
+      "mayPlan": 20336,
+      "aiForecast": 0
     },
     {
       "row": 96,
@@ -1838,7 +1920,8 @@
       "buSales": 0,
       "marPlan": 4000,
       "aprPlan": 4000,
-      "mayPlan": 4000
+      "mayPlan": 4000,
+      "aiForecast": 0
     },
     {
       "row": 97,
@@ -1860,7 +1943,8 @@
       "buSales": 0,
       "marPlan": 3400,
       "aprPlan": 3400,
-      "mayPlan": 3400
+      "mayPlan": 3400,
+      "aiForecast": 0
     },
     {
       "row": 98,
@@ -1882,7 +1966,8 @@
       "buSales": 0,
       "marPlan": 30000,
       "aprPlan": 30000,
-      "mayPlan": 30000
+      "mayPlan": 30000,
+      "aiForecast": 0
     },
     {
       "row": 99,
@@ -1904,7 +1989,8 @@
       "buSales": 22303.8,
       "marPlan": 22000,
       "aprPlan": 18000,
-      "mayPlan": 15000
+      "mayPlan": 15000,
+      "aiForecast": 23723.12
     },
     {
       "row": 101,
@@ -1926,7 +2012,8 @@
       "buSales": 22303.8,
       "marPlan": 22000,
       "aprPlan": 18000,
-      "mayPlan": 15000
+      "mayPlan": 15000,
+      "aiForecast": 22492.8
     },
     {
       "row": 102,
@@ -1948,7 +2035,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 103,
@@ -1970,7 +2058,8 @@
       "buSales": 14492.38,
       "marPlan": 18750,
       "aprPlan": 6250,
-      "mayPlan": 21875
+      "mayPlan": 21875,
+      "aiForecast": 18920.85
     },
     {
       "row": 104,
@@ -1992,7 +2081,8 @@
       "buSales": 23187.808,
       "marPlan": 30000,
       "aprPlan": 10000,
-      "mayPlan": 35000
+      "mayPlan": 35000,
+      "aiForecast": 30886.15
     },
     {
       "row": 105,
@@ -2014,7 +2104,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 106,
@@ -2036,7 +2127,8 @@
       "buSales": 2529.2,
       "marPlan": 2500,
       "aprPlan": 2625,
-      "mayPlan": 2125
+      "mayPlan": 2125,
+      "aiForecast": 2966.26
     },
     {
       "row": 107,
@@ -2058,7 +2150,8 @@
       "buSales": 4046.72,
       "marPlan": 4000,
       "aprPlan": 4200,
-      "mayPlan": 3400
+      "mayPlan": 3400,
+      "aiForecast": 4697.88
     },
     {
       "row": 108,
@@ -2080,7 +2173,8 @@
       "buSales": 41,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 109,
@@ -2102,7 +2196,8 @@
       "buSales": 84,
       "marPlan": 140,
       "aprPlan": 90,
-      "mayPlan": 50
+      "mayPlan": 50,
+      "aiForecast": 52.62
     },
     {
       "row": 110,
@@ -2124,7 +2219,8 @@
       "buSales": 51,
       "marPlan": 15,
       "aprPlan": 15,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 12.03
     },
     {
       "row": 111,
@@ -2146,7 +2242,8 @@
       "buSales": 371,
       "marPlan": 430,
       "aprPlan": 280,
-      "mayPlan": 215
+      "mayPlan": 215,
+      "aiForecast": 300.85
     },
     {
       "row": 112,
@@ -2168,7 +2265,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 113,
@@ -2190,7 +2288,8 @@
       "buSales": 384,
       "marPlan": 390,
       "aprPlan": 250,
-      "mayPlan": 200
+      "mayPlan": 200,
+      "aiForecast": 264.78
     },
     {
       "row": 114,
@@ -2212,7 +2311,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 115,
@@ -2234,7 +2334,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 93.31,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 116,
@@ -2256,7 +2357,8 @@
       "buSales": 2,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 20
+      "mayPlan": 20,
+      "aiForecast": 0
     },
     {
       "row": 117,
@@ -2278,7 +2380,8 @@
       "buSales": 561,
       "marPlan": 540.5251312828207,
       "aprPlan": 363.7263390847709,
-      "mayPlan": 285.20630157539387
+      "mayPlan": 285.20630157539387,
+      "aiForecast": 305.2
     },
     {
       "row": 118,
@@ -2300,7 +2403,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 0
     },
     {
       "row": 119,
@@ -2322,7 +2426,8 @@
       "buSales": 2,
       "marPlan": 15,
       "aprPlan": 26.66,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 6.43
     },
     {
       "row": 120,
@@ -2344,7 +2449,8 @@
       "buSales": 16,
       "marPlan": 130,
       "aprPlan": 50,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 74.22
     },
     {
       "row": 121,
@@ -2366,7 +2472,8 @@
       "buSales": 1,
       "marPlan": 100,
       "aprPlan": 26.66,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 26.2
     },
     {
       "row": 122,
@@ -2388,7 +2495,8 @@
       "buSales": 36,
       "marPlan": 250,
       "aprPlan": 55,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 35.87
     },
     {
       "row": 123,
@@ -2410,7 +2518,8 @@
       "buSales": 24,
       "marPlan": 0,
       "aprPlan": 0,
-      "mayPlan": 30
+      "mayPlan": 30,
+      "aiForecast": 0
     },
     {
       "row": 124,
@@ -2432,7 +2541,8 @@
       "buSales": 56,
       "marPlan": 50,
       "aprPlan": 60,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 39.33
     },
     {
       "row": 125,
@@ -2454,7 +2564,8 @@
       "buSales": 29,
       "marPlan": 40,
       "aprPlan": 80,
-      "mayPlan": 0
+      "mayPlan": 0,
+      "aiForecast": 42.65
     },
     {
       "row": 126,
@@ -2476,7 +2587,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 35,
-      "mayPlan": 25
+      "mayPlan": 25,
+      "aiForecast": 0
     },
     {
       "row": 127,
@@ -2498,7 +2610,8 @@
       "buSales": 2210.1140000000005,
       "marPlan": 2800.0000000000005,
       "aprPlan": 1900,
-      "mayPlan": 1100
+      "mayPlan": 1100,
+      "aiForecast": 1577.15
     },
     {
       "row": 128,
@@ -2520,7 +2633,8 @@
       "buSales": 32441,
       "marPlan": 45600,
       "aprPlan": 25000,
-      "mayPlan": 25000
+      "mayPlan": 25000,
+      "aiForecast": 51968.56
     },
     {
       "row": 129,
@@ -2542,7 +2656,8 @@
       "buSales": 7647,
       "marPlan": 9000,
       "aprPlan": 5500,
-      "mayPlan": 5500
+      "mayPlan": 5500,
+      "aiForecast": 9594.6
     },
     {
       "row": 130,
@@ -2564,7 +2679,8 @@
       "buSales": 0,
       "marPlan": 0,
       "aprPlan": 300,
-      "mayPlan": 300
+      "mayPlan": 300,
+      "aiForecast": 0
     },
     {
       "row": 131,
@@ -2586,7 +2702,8 @@
       "buSales": 44676.2,
       "marPlan": 60000,
       "aprPlan": 35000,
-      "mayPlan": 35000
+      "mayPlan": 35000,
+      "aiForecast": 70687.32
     },
     {
       "row": 132,
@@ -2608,7 +2725,8 @@
       "buSales": 40,
       "marPlan": 1000,
       "aprPlan": 950,
-      "mayPlan": 1210
+      "mayPlan": 1210,
+      "aiForecast": 808.11
     },
     {
       "row": 133,
@@ -2630,7 +2748,8 @@
       "buSales": 8,
       "marPlan": 220.84374999999994,
       "aprPlan": 190.00937499999998,
-      "mayPlan": 225.85769230769216
+      "mayPlan": 225.85769230769216,
+      "aiForecast": 304.06
     },
     {
       "row": 134,
@@ -2652,7 +2771,8 @@
       "buSales": 10,
       "marPlan": 50,
       "aprPlan": 45,
-      "mayPlan": 55.38461538461543
+      "mayPlan": 55.38461538461543,
+      "aiForecast": 63.82
     },
     {
       "row": 135,
@@ -2674,7 +2794,8 @@
       "buSales": 61.33,
       "marPlan": 1300,
       "aprPlan": 1199.9999999999998,
-      "mayPlan": 1499.9999999999998
+      "mayPlan": 1499.9999999999998,
+      "aiForecast": 1278.27
     },
     {
       "row": 136,
@@ -2696,7 +2817,8 @@
       "buSales": 25321,
       "marPlan": 0,
       "aprPlan": 6000,
-      "mayPlan": 3800
+      "mayPlan": 3800,
+      "aiForecast": 0
     },
     {
       "row": 137,
@@ -2718,7 +2840,8 @@
       "buSales": 6166,
       "marPlan": 0,
       "aprPlan": 2500,
-      "mayPlan": 2000
+      "mayPlan": 2000,
+      "aiForecast": 0
     },
     {
       "row": 138,
@@ -2740,7 +2863,8 @@
       "buSales": 35186.6,
       "marPlan": 0,
       "aprPlan": 10000,
-      "mayPlan": 7000
+      "mayPlan": 7000,
+      "aiForecast": 0
     },
     {
       "row": 139,
@@ -2762,7 +2886,8 @@
       "buSales": 1714009.485368,
       "marPlan": 1788000,
       "aprPlan": 1360000,
-      "mayPlan": 1300000
+      "mayPlan": 1300000,
+      "aiForecast": 1732221.72
     }
   ]
 }
