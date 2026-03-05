@@ -42,9 +42,24 @@ interface Totals {
   tgtTotal: number;
 }
 
+interface TargetValues {
+  [key: number]: {
+    toft: string;
+    tont: string;
+    horeca: string;
+    moft: string;
+    dirs: string;
+  };
+}
+
 const formatNumber = (value: number | null | undefined): string => {
   if (value === null || value === undefined || value === 0) return "0";
   return Math.round(value).toLocaleString();
+};
+
+const formatInputValue = (value: number | null | undefined): string => {
+  if (value === null || value === undefined) return "0";
+  return Math.round(value).toString();
 };
 
 export default function BrandTargetTrackingPage() {
@@ -57,12 +72,74 @@ export default function BrandTargetTrackingPage() {
   const [showSuccessModal, setShowSuccessModal] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
+  // Initialize target values state
+  const [targetValues, setTargetValues] = useState<TargetValues>(() => {
+    const initial: TargetValues = {};
+    data.forEach((row, index) => {
+      initial[index] = {
+        toft: formatInputValue(row.tgtToft),
+        tont: formatInputValue(row.tgtTont),
+        horeca: formatInputValue(row.tgtHoreca),
+        moft: formatInputValue(row.tgtMoft),
+        dirs: formatInputValue(row.tgtDirs),
+      };
+    });
+    return initial;
+  });
+
+  // Handle input change - only allow numbers
+  const handleInputChange = (
+    rowIndex: number,
+    field: "toft" | "tont" | "horeca" | "moft" | "dirs",
+    value: string
+  ) => {
+    if (value === "" || /^\d*$/.test(value)) {
+      setTargetValues((prev) => ({
+        ...prev,
+        [rowIndex]: {
+          ...prev[rowIndex],
+          [field]: value,
+        },
+      }));
+    }
+  };
+
+  // Calculate totals for each field
+  const calculateTotal = (field: "toft" | "tont" | "horeca" | "moft" | "dirs"): number => {
+    return Object.values(targetValues).reduce((sum, row) => {
+      const value = parseInt(row[field]) || 0;
+      return sum + value;
+    }, 0);
+  };
+
+  // Calculate row total
+  const calculateRowTotal = (rowIndex: number): number => {
+    const row = targetValues[rowIndex];
+    if (!row) return 0;
+    return (
+      (parseInt(row.toft) || 0) +
+      (parseInt(row.tont) || 0) +
+      (parseInt(row.horeca) || 0) +
+      (parseInt(row.moft) || 0) +
+      (parseInt(row.dirs) || 0)
+    );
+  };
+
+  // Calculate grand total
+  const calculateGrandTotal = (): number => {
+    return Object.keys(targetValues).reduce((sum, key) => {
+      return sum + calculateRowTotal(parseInt(key));
+    }, 0);
+  };
+
   // Handle confirm submission
   const handleConfirm = async () => {
     setIsSubmitting(true);
     setShowLoadingModal(true);
 
     await new Promise((resolve) => setTimeout(resolve, 2000));
+
+    console.log("Submitting target values:", targetValues);
 
     setShowLoadingModal(false);
     setIsSubmitting(false);
@@ -109,19 +186,19 @@ export default function BrandTargetTrackingPage() {
                 <th className="border border-[#2F5496] px-2 py-1.5 text-center font-semibold w-[80px]">
                   Total
                 </th>
-                <th className="border border-[#2F5496] px-2 py-1.5 text-center font-semibold w-[70px] bg-[#70AD47]">
+                <th className="border border-[#2F5496] px-2 py-1.5 text-center font-semibold w-[80px] bg-[#70AD47]">
                   TOFT
                 </th>
-                <th className="border border-[#2F5496] px-2 py-1.5 text-center font-semibold w-[70px] bg-[#70AD47]">
+                <th className="border border-[#2F5496] px-2 py-1.5 text-center font-semibold w-[80px] bg-[#70AD47]">
                   TONT
                 </th>
-                <th className="border border-[#2F5496] px-2 py-1.5 text-center font-semibold w-[70px] bg-[#70AD47]">
+                <th className="border border-[#2F5496] px-2 py-1.5 text-center font-semibold w-[80px] bg-[#70AD47]">
                   HoReCa
                 </th>
-                <th className="border border-[#2F5496] px-2 py-1.5 text-center font-semibold w-[70px] bg-[#70AD47]">
+                <th className="border border-[#2F5496] px-2 py-1.5 text-center font-semibold w-[80px] bg-[#70AD47]">
                   MOFT
                 </th>
-                <th className="border border-[#2F5496] px-2 py-1.5 text-center font-semibold w-[70px] bg-[#70AD47]">
+                <th className="border border-[#2F5496] px-2 py-1.5 text-center font-semibold w-[80px] bg-[#70AD47]">
                   DIRS
                 </th>
                 <th className="border border-[#2F5496] px-2 py-1.5 text-center font-semibold w-[80px] bg-[#70AD47]">
@@ -158,22 +235,22 @@ export default function BrandTargetTrackingPage() {
                   {formatNumber(totals.lyTotal)}
                 </td>
                 <td className="border border-gray-300 px-2 py-1 text-right bg-[#E2EFDA]">
-                  {formatNumber(totals.tgtToft)}
+                  {calculateTotal("toft").toLocaleString()}
                 </td>
                 <td className="border border-gray-300 px-2 py-1 text-right bg-[#E2EFDA]">
-                  {formatNumber(totals.tgtTont)}
+                  {calculateTotal("tont").toLocaleString()}
                 </td>
                 <td className="border border-gray-300 px-2 py-1 text-right bg-[#E2EFDA]">
-                  {formatNumber(totals.tgtHoreca)}
+                  {calculateTotal("horeca").toLocaleString()}
                 </td>
                 <td className="border border-gray-300 px-2 py-1 text-right bg-[#E2EFDA]">
-                  {formatNumber(totals.tgtMoft)}
+                  {calculateTotal("moft").toLocaleString()}
                 </td>
                 <td className="border border-gray-300 px-2 py-1 text-right bg-[#E2EFDA]">
-                  {formatNumber(totals.tgtDirs)}
+                  {calculateTotal("dirs").toLocaleString()}
                 </td>
                 <td className="border border-gray-300 px-2 py-1 text-right bg-[#C6E0B4] font-bold">
-                  {formatNumber(totals.tgtTotal)}
+                  {calculateGrandTotal().toLocaleString()}
                 </td>
               </tr>
 
@@ -208,23 +285,48 @@ export default function BrandTargetTrackingPage() {
                     <td className="border border-gray-300 px-2 py-1 text-right tabular-nums bg-[#DDEBF7] font-medium">
                       {formatNumber(row.lyTotal)}
                     </td>
-                    <td className="border border-gray-300 px-2 py-1 text-right tabular-nums bg-[#E2EFDA]">
-                      {formatNumber(row.tgtToft)}
+                    <td className="border border-gray-300 p-0.5 bg-[#E2EFDA]">
+                      <input
+                        type="text"
+                        value={targetValues[index]?.toft || "0"}
+                        onChange={(e) => handleInputChange(index, "toft", e.target.value)}
+                        className="w-full px-2 py-0.5 text-right text-xs tabular-nums bg-white border border-gray-400 rounded outline-none focus:border-green-500 focus:ring-1 focus:ring-green-300 hover:border-gray-500"
+                      />
                     </td>
-                    <td className="border border-gray-300 px-2 py-1 text-right tabular-nums bg-[#E2EFDA]">
-                      {formatNumber(row.tgtTont)}
+                    <td className="border border-gray-300 p-0.5 bg-[#E2EFDA]">
+                      <input
+                        type="text"
+                        value={targetValues[index]?.tont || "0"}
+                        onChange={(e) => handleInputChange(index, "tont", e.target.value)}
+                        className="w-full px-2 py-0.5 text-right text-xs tabular-nums bg-white border border-gray-400 rounded outline-none focus:border-green-500 focus:ring-1 focus:ring-green-300 hover:border-gray-500"
+                      />
                     </td>
-                    <td className="border border-gray-300 px-2 py-1 text-right tabular-nums bg-[#E2EFDA]">
-                      {formatNumber(row.tgtHoreca)}
+                    <td className="border border-gray-300 p-0.5 bg-[#E2EFDA]">
+                      <input
+                        type="text"
+                        value={targetValues[index]?.horeca || "0"}
+                        onChange={(e) => handleInputChange(index, "horeca", e.target.value)}
+                        className="w-full px-2 py-0.5 text-right text-xs tabular-nums bg-white border border-gray-400 rounded outline-none focus:border-green-500 focus:ring-1 focus:ring-green-300 hover:border-gray-500"
+                      />
                     </td>
-                    <td className="border border-gray-300 px-2 py-1 text-right tabular-nums bg-[#E2EFDA]">
-                      {formatNumber(row.tgtMoft)}
+                    <td className="border border-gray-300 p-0.5 bg-[#E2EFDA]">
+                      <input
+                        type="text"
+                        value={targetValues[index]?.moft || "0"}
+                        onChange={(e) => handleInputChange(index, "moft", e.target.value)}
+                        className="w-full px-2 py-0.5 text-right text-xs tabular-nums bg-white border border-gray-400 rounded outline-none focus:border-green-500 focus:ring-1 focus:ring-green-300 hover:border-gray-500"
+                      />
                     </td>
-                    <td className="border border-gray-300 px-2 py-1 text-right tabular-nums bg-[#E2EFDA]">
-                      {formatNumber(row.tgtDirs)}
+                    <td className="border border-gray-300 p-0.5 bg-[#E2EFDA]">
+                      <input
+                        type="text"
+                        value={targetValues[index]?.dirs || "0"}
+                        onChange={(e) => handleInputChange(index, "dirs", e.target.value)}
+                        className="w-full px-2 py-0.5 text-right text-xs tabular-nums bg-white border border-gray-400 rounded outline-none focus:border-green-500 focus:ring-1 focus:ring-green-300 hover:border-gray-500"
+                      />
                     </td>
                     <td className="border border-gray-300 px-2 py-1 text-right tabular-nums bg-[#C6E0B4] font-medium">
-                      {formatNumber(row.tgtTotal)}
+                      {calculateRowTotal(index).toLocaleString()}
                     </td>
                   </tr>
                 );
