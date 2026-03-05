@@ -21,7 +21,7 @@ const menuItems = [
     icon: BarChart3,
   },
   {
-    title: "Target Tracking",
+    title: "Brand Target Tracking",
     href: "/dashboard/target-tracking",
     icon: Target,
   },
