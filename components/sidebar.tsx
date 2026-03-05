@@ -9,7 +9,8 @@ import {
   BarChart3,
   Target,
   TrendingDown,
-  FileText,
+  FileSpreadsheet,
+  MapPin,
   LogOut,
   User,
 } from "lucide-react";
@@ -31,9 +32,14 @@ const menuItems = [
     icon: TrendingDown,
   },
   {
-    title: "TONT",
-    href: "/dashboard/tont",
-    icon: FileText,
+    title: "TONT Market Target",
+    href: "/dashboard/tont-market-target",
+    icon: MapPin,
+  },
+  {
+    title: "Breaking Sheet",
+    href: "/dashboard/target-breaking-sheet",
+    icon: FileSpreadsheet,
   },
 ];
 
